@@ -1,6 +1,7 @@
 /* Base */
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
 
 .font-size-10 {
   font-size: 10px; }
@@ -487,10 +488,12 @@ h1, h2, h3, h4, h5,
         color: #000 !important;
         display: inline-block;
         text-decoration: none !important; }
-        .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #3b4eda; }
-      .site-navbar .site-navigation .site-menu > li.active > a {
-        color: #3b4eda !important; }
+        .site-navbar .site-navigation .site-menu >  a:hover {
+          color: #3b4eda;
+         }
+      .site-navbar .site-navigation .site-menu  > a {
+        color: #3b4eda !important;
+        }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -518,7 +521,7 @@ h1, h2, h3, h4, h5,
         padding: 0px 0;
         margin-top: 20px;
         margin-left: 0px;
-        background: #fff;
+        background: #3b4eda;
         -webkit-transition: 0.2s 0s;
         -o-transition: 0.2s 0s;
         transition: 0.2s 0s; }
@@ -567,10 +570,10 @@ h1, h2, h3, h4, h5,
             left: 100%;
             top: 0; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:active > a, .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children:focus > a {
-            background: #f8f9fa;
+            background: #3b4eda;
             color: #ced4da; }
       .site-navbar .site-navigation .site-menu .has-children:hover > a, .site-navbar .site-navigation .site-menu .has-children:focus > a, .site-navbar .site-navigation .site-menu .has-children:active > a {
-        color: #3b4eda; }
+        color: #ced4da; }
       .site-navbar .site-navigation .site-menu .has-children:hover, .site-navbar .site-navigation .site-menu .has-children:focus, .site-navbar .site-navigation .site-menu .has-children:active {
         cursor: pointer; }
         .site-navbar .site-navigation .site-menu .has-children:hover > .dropdown, .site-navbar .site-navigation .site-menu .has-children:focus > .dropdown, .site-navbar .site-navigation .site-menu .has-children:active > .dropdown {
@@ -587,7 +590,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #3b4eda;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -648,9 +651,10 @@ h1, h2, h3, h4, h5,
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #212529; }
+      color: #ced4da; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #3b4eda; }
+        color: #3b4eda; 
+        background: #FFF6DA;}
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
