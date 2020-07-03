@@ -1,7 +1,7 @@
 /* Base */
 html {
   overflow-x: hidden;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth; } /* Added smooth scroll*/
 
 .font-size-10 {
   font-size: 10px; }
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5,
       padding-top: 3rem;
       padding-bottom: 3rem; } }
   .site-navbar .toggle-button {
-    position: absolute;
+    position: fixed;
     right: 0px; }
   .site-navbar .site-logo {
     margin: 0;
@@ -583,7 +583,11 @@ h1, h2, h3, h4, h5,
           margin-top: 0px;
           visibility: visible;
           opacity: 1; }
-
+          @media (min-width: 700px){
+           .site-menu-toggle{
+          position: fixed;
+          top: -20px;
+          }
 .site-mobile-menu {
   width: 300px;
   position: fixed;
