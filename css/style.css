@@ -599,7 +599,7 @@ h1, h2, h3, h4, h5,
   z-index: 2000;
   padding-top: 20px;
   background: #3b4eda;
-  height: calc(100vh);
+  height: auto;
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
   transform: translateX(110%);
