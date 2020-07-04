@@ -590,11 +590,12 @@ h1, h2, h3, h4, h5,
           }
           .site-mobile-menu{
            position: absolute;
+            height: auto;
            }
         }
 .site-mobile-menu {
   width: 300px;
-  position: fixed;
+  position: absolute;
   right: 0;
   z-index: 2000;
   padding-top: 20px;
