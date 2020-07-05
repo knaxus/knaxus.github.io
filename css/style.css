@@ -584,14 +584,12 @@ h1, h2, h3, h4, h5,
           visibility: visible;
           opacity: 1; }
           @media (min-width: 700px){
-           .site-menu-toggle{
-          position: absolute;
-          top: -20px;
+            .site-menu-toggle{
+              position: absolute;
+              top: -20px; }
+            .site-mobile-menu{
+              position: absolute; }
           }
-          .site-mobile-menu{
-           position: absolute;
-           }
-        }
 .site-mobile-menu {
   width: 300px;
   position: fixed;
